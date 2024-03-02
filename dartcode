@@ -1,0 +1,38 @@
+void main() {
+  // Demonstrating int data type
+  int age = 25;
+  print('Age: $age');
+
+  // Demonstrating double data type
+  double height = 6.2;
+  print('Height: $height');
+
+  // Demonstrating String data type
+  String name = 'John Doe';
+  print('Name: $name');
+
+  // Demonstrating List data type
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print('Numbers: $numbers');
+
+  // Demonstrating Map data type
+  Map<String, dynamic> person = {
+    'name': 'Alice',
+    'age': 30,
+    'isStudent': false,
+  };
+  print('Person: $person');
+  // Accessing elements of a list
+  print('First number: ${numbers[0]}');
+
+  // Accessing elements of a map
+  print('Name: ${person['name']}, Age: ${person['age']}');
+
+  // Modifying elements of a list
+  numbers[0] = 10;
+  print('Modified Numbers: $numbers');
+
+  // Modifying elements of a map
+  person['age'] = 35;
+  print('Modified Person: $person');
+}
